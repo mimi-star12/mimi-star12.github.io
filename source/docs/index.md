@@ -1,19 +1,9 @@
-# Welcome to MkDocs
+# Главная
+## *~ Welcome to mimi's island! ~*
 
-hello *darling*!! have a great day
-
-no need in documentation - PURE CHAOS
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+#### это сайт - островок, на котором живут мои лабораторные работы и иные проекты, написанные на языке **Python**
+---
+#### КАРТА ОСТРОВА
+- [об авторе](author_info.md)
+- [лабораторные работы](labs.md)
+- [more](more.md)

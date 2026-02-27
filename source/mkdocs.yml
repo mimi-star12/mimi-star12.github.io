@@ -1,3 +1,13 @@
 site_name: mimi site
+
 theme:
-    name: dracula
+  name: dracula
+  favicon: favicon.png
+
+nav:
+    - Главная: index.md
+    - Об авторе: author_info.md
+    - Лабораторные работы: labs.md
+
+    - More: more.md
+    
