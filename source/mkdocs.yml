@@ -3,6 +3,7 @@ site_name: mimi site
 theme:
   name: dracula
   favicon: favicon.png
+  logo: favicon.png
 
 nav:
     - Главная: index.md
