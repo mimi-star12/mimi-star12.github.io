@@ -1,5 +1,8 @@
 site_name: mimi site
 
+docs_dir: docs
+site_dir: ../docs
+
 theme:
   name: dracula
   favicon: favicon.png
