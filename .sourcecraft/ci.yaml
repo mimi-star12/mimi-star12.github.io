@@ -14,13 +14,13 @@ workflows:
             script:
               - python -m pip install --upgrade pip
               - "if [ -f requirements.txt ]; then pip install -r requirements.txt; fi"
-              - mkdocs build -d ./source
-              - echo "Сайт собран в папке ./source"
-              - ls -la ./source
+              - cd ./source && mkdocs build -d ../site
+              - echo "Сайт собран в папке ../site"
+              - ls -la ../site
           
           - name: publish-to-release-branch
             script:
               - git checkout -b release
-              - git add ./source
+              - git add ./site
               - "git commit -m \"feat: автоматическое обновление сайта\""
               - "git push origin release -f"
