@@ -1,0 +1,21 @@
+name: Deploy MkDocs Site
+
+on:
+  push:
+    branches:
+      - main  
+  # workflow_dispatch:  # ручная активация через интерфейс GitHub
+
+jobs:
+  build:
+    name: Deploy docs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v1
+
+      - name: Deploy docs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
+        env:
+          CONFIG_FILE: ./source/mkdocs.yml
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
