@@ -9,5 +9,5 @@
 #### **2 сем:**
 - [Этот сайт!!!](index.md)
 - [Лаб №2 (numpy)](labs/numpy.md)
-- [Лаб №3 (CI/CD)](labs/)
+- [Лаб №3 (CI/CD)](labs/CI-CD.md)
 
